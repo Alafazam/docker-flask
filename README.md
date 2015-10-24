@@ -4,7 +4,7 @@ This image is a boilerplate for any Flask application, configured with Docker.
 
 
 ### Base Docker Image
-* [ubuntu:12.04](https://registry.hub.docker.com/_/ubuntu/)
+* [fedora:22.0](https://registry.hub.docker.com/_/fedora/)
 
 
 
