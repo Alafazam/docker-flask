@@ -31,7 +31,7 @@ docker build -t flask-boilerplate.
 docker run -d -p 80:80 flask-boilerplate
 ```
 
-- starting with user and pass .
+- starting with environment variables .
 
 ```bash
 docker run -d -p -e user="USERNAME" -e pass="PASSWORD" 80:80 flask-boilerplate
