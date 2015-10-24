@@ -10,8 +10,8 @@ MAINTAINER http://fedoraproject.org/wiki/Cloud
 #RUN apt-get update
 #RUN apt-get install -y python python-pip python-virtualenv nginx gunicorn supervisor
 
-RUN dnf  update && yum clean all
-RUN dnf  install nginx python-pip python-virtualenv  && yum clean all
+RUN dnf update 
+RUN dnf install nginx python-pip python-virtualenv
 
 # Setup flask application
 RUN mkdir -p /deploy/app
