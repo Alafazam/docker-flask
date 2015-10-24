@@ -16,7 +16,7 @@ This image is a boilerplate for any Flask application, configured with Docker.
 git clone https://github.com/Alafazam/docker-flask
 ```
 
-- build using docker build -t flask-boilerplate .
+- build using docker build -t flask-boilerplate:1.0 .
 
 ```bash
 docker build -t flask-boilerplate.
@@ -28,13 +28,13 @@ docker build -t flask-boilerplate.
 - starting without environment variables .
 
 ```bash
-docker run -d -p 80:80 flask-boilerplate
+docker run -d -p 80:80 flask-boilerplate:1.0
 ```
 
 - starting with environment variables .
 
 ```bash
-docker run -d -p -e user="USERNAME" -e pass="PASSWORD" 80:80 flask-boilerplate
+docker run -d -p -e user="USERNAME" -e pass="PASSWORD" 80:80 flask-boilerplate:1.0
 ```
 
 
